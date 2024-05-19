@@ -20,7 +20,7 @@ const Counter=()=>{
             <h1>Counter APP</h1>
              <div >
         <div>
-            <div >Count:{count}</div>
+            <div >Count: {count}</div>
             </div>
             <div>
         
