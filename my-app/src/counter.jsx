@@ -6,12 +6,12 @@ const Counter=()=>{
     const[count,setCount]=useState(0);
     
 
-    const incre=()=>
+    const Increment=()=>
         {
             setCount(count+1);
         }
         
-    const decre=()=>
+    const Decrement=()=>
         {
             setCount(count-1);
         }
@@ -24,8 +24,8 @@ const Counter=()=>{
             </div>
             <div>
         
-            <button style={{padding:"10px", type:"button"}} onClick={incre}>Increment</button>
-            <button style={{padding:"10px", type:"button"}} onClick={decre}>Decrement</button>
+            <button style={{padding:"10px", type:"button"}} onClick={Increment}>Increment</button>
+            <button style={{padding:"10px", type:"button"}} onClick={Decrement}>Decrement</button>
         </div>
         </div>
        </div>)
